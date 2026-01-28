@@ -292,12 +292,15 @@ const Sidebar = ({ collapsed = false }) => {
       </Link> */}
  <Link href="/" className="flex items-center">
       <div className="flex items-center">
+        {collapsed ? (
         <div className="bg-almet-sapphire text-white h-8 w-8 rounded flex items-center justify-center font-bold mr-2">
           UP
         </div>
+         ) : (
         <span className="text-gray-800 dark:text-white font-semibold">
          UP Intranet
         </span>
+          )}
       </div>
     </Link>
 
