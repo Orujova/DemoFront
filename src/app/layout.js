@@ -12,7 +12,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "My Almet",
+  title: "UP Intranet ",
   description: "Human Resource Information System",
 };
 
