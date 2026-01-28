@@ -275,7 +275,7 @@ const Sidebar = ({ collapsed = false }) => {
 
   return (
     <div className="h-full bg-white dark:bg-almet-cloud-burst border-r border-gray-200 dark:border-almet-comet flex flex-col w-full">
-  
+{/*   
       <Link 
         href="/" 
         className={`flex items-center justify-center ${collapsed ? 'justify-center' : 'px-3'} py-2 border-b border-gray-200 dark:border-almet-comet group`}
@@ -289,7 +289,19 @@ const Sidebar = ({ collapsed = false }) => {
             <img src="/pdfs/logo.png" alt="Almet Logo" className="h-6" />
           </div>
         )}
-      </Link>
+      </Link> */}
+ <Link href="/" className="flex items-center">
+      <div className="flex items-center">
+        <div className="bg-almet-sapphire text-white h-8 w-8 rounded flex items-center justify-center font-bold mr-2">
+          UP
+        </div>
+        <span className="text-gray-800 dark:text-white font-semibold">
+         UP Intranet
+        </span>
+      </div>
+    </Link>
+
+      
       
       <div className="overflow-y-auto flex-1 py-0 scrollbar-thin scrollbar-track-transparent">
         <nav className="px-2">
